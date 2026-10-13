@@ -1,0 +1,56 @@
+/* Umumiy sozlamalar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ASOSIY CONTAINER STILI */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Katta ekranlarda 1200 pikseldan oshib ketmaydi */
+    margin-left: auto;   /* Chapdan avtomatik teng bo'sh joy */
+    margin-right:  auto;  /* O'ngdan avtomatik teng bo'sh joy (Markazga qo'yadi) */
+    padding-left: 20px;  /* Kichik ekranlarda chetidan yopishib qolmasligi uchun */
+    padding-right: 20px;
+}
+
+/* Header dizayni */
+.site-header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Asosiy qism dizayni */
+.site-main {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    min-height: 70vh;
+}
+
+/* Footer dizayni */
+.site-footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
